@@ -45,6 +45,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -678,7 +679,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	margin-right:0cm;
 	margin-bottom:8.0pt;
 	margin-left:0cm;
-	line-height:107%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
@@ -688,7 +689,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-fareast-theme-font:minor-latin;
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 h1
@@ -702,7 +703,7 @@ h1
 	margin-bottom:0cm;
 	margin-left:0cm;
 	margin-bottom:.0001pt;
-	line-height:107%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:1;
@@ -724,7 +725,8 @@ h1
 	mso-fareast-language:EN-US;
 	mso-bidi-font-weight:normal;}
 p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-link:"Header Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -738,11 +740,12 @@ p.MsoHeader, li.MsoHeader, div.MsoHeader
 	mso-fareast-theme-font:minor-latin;
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-link:"Footer Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -756,11 +759,12 @@ p.MsoFooter, li.MsoFooter, div.MsoFooter
 	mso-fareast-theme-font:minor-latin;
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 a:link, span.MsoHyperlink
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	color:#0563C1;
 	mso-themecolor:hyperlink;
 	text-decoration:underline;
@@ -773,7 +777,8 @@ a:visited, span.MsoHyperlinkFollowed
 	text-decoration:underline;
 	text-underline:single;}
 p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-link:"Plain Text Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -782,21 +787,9 @@ p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
 	font-family:Consolas;
 	mso-fareast-font-family:Calibri;
 	mso-fareast-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
-span.HeaderChar
-	{mso-style-name:"Header Char";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Header;}
-span.FooterChar
-	{mso-style-name:"Footer Char";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Footer;}
 span.Heading1Char
 	{mso-style-name:"Heading 1 Char";
 	mso-style-priority:9;
@@ -819,8 +812,35 @@ span.Heading1Char
 	mso-themeshade:191;
 	font-weight:bold;
 	mso-bidi-font-weight:normal;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;}
 span.PlainTextChar
 	{mso-style-name:"Plain Text Char";
+	mso-style-noshow:yes;
 	mso-style-priority:99;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -833,6 +853,9 @@ span.PlainTextChar
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -840,13 +863,9 @@ span.PlainTextChar
 	mso-fareast-theme-font:minor-latin;
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
  /* Page Definitions */
  @page
 	{mso-footnote-separator:url("index_files/header.html") fs;
@@ -874,19 +893,16 @@ div.WordSection1
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0cm;
-	line-height:107%;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
@@ -904,12 +920,15 @@ div.WordSection1
 
 <h1>Structure of Metadata atom</h1>
 
-<p class=MsoNormal>kjkljl</p>
+<p class=MsoNormal>Kjkljl</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-begin'></span><span
 style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
 &quot;https://d.docs.live.net/c17407db56f6b64f/MP4INVESTIGATOR-WEBSITE/ATOMS.xlsx&quot;
-&quot;metadata1!R1C1:R26C45&quot; \a \f 4 \h <span style='mso-element:field-separator'></span><![endif]--></p>
+&quot;metadata1!R1C1:R26C45&quot; \a \f 4 \h <span style='mso-element:field-separator'></span><![endif]--><span
+style='font-size:10.0pt;line-height:105%'><o:p></o:p></span></p>
 
 <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=1329
  style='width:997.0pt;margin-left:-.15pt;border-collapse:collapse;mso-yfti-tbllook:
@@ -1196,9 +1215,9 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap style='width:21.9pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap rowspan=2 valign=top style='width:22.0pt;border:none;
-  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
-  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=29 nowrap rowspan=2 style='width:22.0pt;border:none;border-right:
+  dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
+  height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -1585,10 +1604,9 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap style='width:21.9pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap rowspan=2 valign=top style='width:22.0pt;border-top:double #4472C4 2.25pt;
-  border-left:none;border-bottom:none;border-right:dotted #00B050 1.0pt;
-  mso-border-top-alt:double #4472C4 2.25pt;mso-border-right-alt:dotted #00B050 .5pt;
-  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=29 nowrap rowspan=2 style='width:22.0pt;border:none;border-right:
+  dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
+  height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -1836,19 +1854,19 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap rowspan=2 valign=top style='width:22.0pt;border:none;
-  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
-  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span style='font-size:10.0pt;
-  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
-  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
-  mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  <td width=29 nowrap valign=top style='width:22.0pt;border:none;border-right:
+  dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
+  height:15.95pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;mso-ascii-font-family:Calibri;
+  mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:Calibri;color:black;mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
   </td>
-  <td width=59 colspan=2 rowspan=2 style='width:44.0pt;border-top:none;
-  border-left:none;border-bottom:dotted #00B050 1.0pt;border-right:dotted #00B050 1.0pt;
-  mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:dotted #00B050 .5pt;
-  mso-border-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=59 colspan=2 rowspan=2 style='width:44.0pt;border:none;border-right:
+  dotted #00B050 1.0pt;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
+  dotted #00B050 .5pt;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
+  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
+  height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:8.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -1994,6 +2012,14 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:28.5pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:28.5pt'></td>
+  <td width=29 nowrap valign=top style='width:22.0pt;border:none;border-right:
+  dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
+  height:28.5pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt;mso-ascii-font-family:Calibri;
+  mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:Calibri;color:black;mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
   <td width=119 nowrap colspan=4 valign=top style='width:89.0pt;border:none;
   border-bottom:double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;
   background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:28.5pt'>
@@ -2097,19 +2123,19 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
   mso-ansi-language:EN-US;mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
   </td>
-  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border-top:none;
-  border-left:none;border-bottom:dotted #00B050 1.0pt;border-right:dotted #00B050 1.0pt;
-  mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:dotted #00B050 .5pt;
-  mso-border-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border:dotted #00B050 1.0pt;
+  border-left:none;mso-border-left-alt:dotted #00B050 .5pt;mso-border-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:8.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
   mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
   mso-fareast-language:NL'>Value atom<o:p></o:p></span></p>
   </td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;border:none;border-bottom:
-  double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;background:#E2EFDA;
-  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=29 nowrap valign=bottom style='width:22.0pt;border-top:solid #4472C4 1.0pt;
+  border-left:none;border-bottom:double #4472C4 2.25pt;border-right:none;
+  mso-border-top-alt:solid #4472C4 .5pt;mso-border-bottom-alt:double #4472C4 2.25pt;
+  background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><b><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -2557,12 +2583,18 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'></td>
+  <td width=29 nowrap rowspan=2 valign=bottom style='width:22.0pt;border:none;
+  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
   <td width=59 colspan=2 rowspan=2 style='width:44.0pt;border:dotted #00B050 1.0pt;
-  border-bottom:none;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
-  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'>
+  border-left:none;mso-border-left-alt:dotted #00B050 .5pt;mso-border-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -2711,8 +2743,6 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:29.25pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:29.25pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:29.25pt'></td>
   <td width=119 nowrap colspan=4 valign=top style='width:89.0pt;border:none;
   border-bottom:double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;
   background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:29.25pt'>
@@ -2807,22 +2837,28 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'></td>
-  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border:dotted #00B050 1.0pt;
-  border-bottom:none;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
-  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'>
+  <td width=29 nowrap rowspan=2 valign=bottom style='width:22.0pt;border:none;
+  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-US style='font-size:10.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-US;mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border-top:none;
+  border-left:none;border-bottom:dotted #00B050 1.0pt;border-right:dotted #00B050 1.0pt;
+  mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:dotted #00B050 .5pt;
+  mso-border-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
   mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
   mso-fareast-language:NL'>Value atom<o:p></o:p></span></p>
   </td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;border-top:solid #4472C4 1.0pt;
-  border-left:none;border-bottom:double #4472C4 2.25pt;border-right:none;
-  mso-border-top-alt:solid #4472C4 .5pt;mso-border-bottom-alt:double #4472C4 2.25pt;
-  background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=29 nowrap valign=bottom style='width:22.0pt;border:none;border-bottom:
+  double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;background:#E2EFDA;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><b><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -2996,8 +3032,6 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   <td width=29 nowrap valign=bottom style='width:21.9pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:27.0pt'></td>
   <td width=29 nowrap valign=bottom style='width:21.9pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:27.0pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:27.0pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:27.0pt'></td>
@@ -3186,12 +3220,18 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'></td>
+  <td width=29 nowrap rowspan=2 valign=bottom style='width:22.0pt;border:none;
+  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
   <td width=59 colspan=2 rowspan=2 style='width:44.0pt;border:dotted #00B050 1.0pt;
-  border-bottom:none;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
-  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'>
+  border-left:none;mso-border-left-alt:dotted #00B050 .5pt;mso-border-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -3340,8 +3380,6 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:32.25pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:32.25pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:32.25pt'></td>
   <td width=119 nowrap colspan=4 valign=top style='width:89.0pt;border:none;
   border-bottom:double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;
   background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:32.25pt'>
@@ -3436,22 +3474,28 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.75pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.75pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.75pt'></td>
-  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border:dotted #00B050 1.0pt;
-  border-bottom:none;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
-  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.75pt'>
+  <td width=29 nowrap rowspan=2 valign=bottom style='width:22.0pt;border:none;
+  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span lang=EN-US style='font-size:10.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-ansi-language:EN-US;mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border-top:none;
+  border-left:none;border-bottom:dotted #00B050 1.0pt;border-right:dotted #00B050 1.0pt;
+  mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:dotted #00B050 .5pt;
+  mso-border-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.75pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
   mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
   mso-fareast-language:NL'>Value atom<o:p></o:p></span></p>
   </td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;border-top:solid #4472C4 1.0pt;
-  border-left:none;border-bottom:double #4472C4 2.25pt;border-right:none;
-  mso-border-top-alt:solid #4472C4 .5pt;mso-border-bottom-alt:double #4472C4 2.25pt;
-  background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:15.75pt'>
+  <td width=29 nowrap valign=bottom style='width:22.0pt;border:none;border-bottom:
+  double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;background:#E2EFDA;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.75pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><b><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -3680,8 +3724,6 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:27.75pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:27.75pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:27.75pt'></td>
   <td width=117 nowrap colspan=4 valign=top style='width:88.0pt;border:none;
   border-bottom:double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;
   background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:27.75pt'>
@@ -3719,10 +3761,10 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   <td width=235 colspan=8 valign=top style='width:176.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:27.75pt'>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US style='font-size:10.0pt;mso-ascii-font-family:Calibri;
+  normal'><span style='font-size:10.0pt;mso-ascii-font-family:Calibri;
   mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
-  mso-bidi-font-family:Calibri;color:black;mso-ansi-language:EN-US;mso-fareast-language:
-  NL'>the data: in this case string (type 01): &quot;WinTitle&quot;<o:p></o:p></span></p>
+  mso-bidi-font-family:Calibri;color:black;mso-fareast-language:NL'>the data:
+  in this case string (type 01): &quot;WinTitle&quot;<o:p></o:p></span></p>
   </td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:27.75pt'></td>
@@ -3872,12 +3914,18 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'></td>
+  <td width=29 nowrap rowspan=2 valign=bottom style='width:22.0pt;border:none;
+  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
   <td width=59 colspan=2 rowspan=2 style='width:44.0pt;border:dotted #00B050 1.0pt;
-  border-bottom:none;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
-  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'>
+  border-left:none;mso-border-left-alt:dotted #00B050 .5pt;mso-border-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -4026,8 +4074,6 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:32.25pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:32.25pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:32.25pt'></td>
   <td width=119 nowrap colspan=4 valign=top style='width:89.0pt;border:none;
   border-bottom:double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;
   background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:32.25pt'>
@@ -4040,10 +4086,10 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   <td width=117 colspan=4 valign=top style='width:88.0pt;background:#BDD7EE;
   padding:0cm 3.5pt 0cm 3.5pt;height:32.25pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US style='font-size:10.0pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
   mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
-  mso-ansi-language:EN-US;mso-fareast-language:NL'>Type/name e.g.<br>
+  mso-fareast-language:NL'>Type/name e.g.<br>
   this case ©cmt<o:p></o:p></span></p>
   </td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
@@ -4122,22 +4168,28 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:15.95pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:15.95pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'></td>
-  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border:dotted #00B050 1.0pt;
-  border-bottom:none;mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:
-  dotted #00B050 .5pt;mso-border-right-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:15.95pt'>
+  <td width=29 nowrap rowspan=2 valign=bottom style='width:22.0pt;border:none;
+  border-right:dotted #00B050 1.0pt;mso-border-right-alt:dotted #00B050 .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='font-size:10.0pt;
+  mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
+  mso-fareast-language:NL'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=60 colspan=2 rowspan=2 style='width:45.0pt;border-top:none;
+  border-left:none;border-bottom:dotted #00B050 1.0pt;border-right:dotted #00B050 1.0pt;
+  mso-border-top-alt:dotted #00B050 .5pt;mso-border-left-alt:dotted #00B050 .5pt;
+  mso-border-alt:dotted #00B050 .5pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
   mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
   mso-fareast-language:NL'>Value atom<o:p></o:p></span></p>
   </td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;border-top:solid #4472C4 1.0pt;
-  border-left:none;border-bottom:double #4472C4 2.25pt;border-right:none;
-  mso-border-top-alt:solid #4472C4 .5pt;mso-border-bottom-alt:double #4472C4 2.25pt;
-  background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
+  <td width=29 nowrap valign=bottom style='width:22.0pt;border:none;border-bottom:
+  double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;background:#E2EFDA;
+  padding:0cm 3.5pt 0cm 3.5pt;height:15.95pt'>
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;line-height:normal'><b><span style='font-size:10.0pt;
   mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
@@ -4390,8 +4442,6 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   height:28.5pt'></td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:28.5pt'></td>
-  <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
-  height:28.5pt'></td>
   <td width=117 nowrap colspan=4 valign=top style='width:88.0pt;border:none;
   border-bottom:double #4472C4 2.25pt;mso-border-top-alt:solid #4472C4 .5pt;
   background:#E2EFDA;padding:0cm 3.5pt 0cm 3.5pt;height:28.5pt'>
@@ -4429,10 +4479,10 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
   <td width=360 colspan=12 valign=top style='width:270.2pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:28.5pt'>
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US style='font-size:10.0pt;mso-ascii-font-family:Calibri;
+  normal'><span style='font-size:10.0pt;mso-ascii-font-family:Calibri;
   mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
-  mso-bidi-font-family:Calibri;color:black;mso-ansi-language:EN-US;mso-fareast-language:
-  NL'>the data: in this case string (type 01) &quot;Win Comments&quot;<o:p></o:p></span></p>
+  mso-bidi-font-family:Calibri;color:black;mso-fareast-language:NL'>the data:
+  in this case string (type 01) &quot;Win Comments&quot;<o:p></o:p></span></p>
   </td>
   <td width=29 nowrap valign=bottom style='width:22.0pt;padding:0cm 3.5pt 0cm 3.5pt;
   height:28.5pt'></td>
@@ -4565,22 +4615,28 @@ style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
  </tr>
 </table>
 
-<p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--><!--[if supportFields]><span
-style='mso-element:field-begin'></span><span style='mso-spacerun:yes'> </span>LINK
-Excel.Sheet.12
+<p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
 &quot;https://d.docs.live.net/c17407db56f6b64f/MP4INVESTIGATOR-WEBSITE/ATOMS.xlsx&quot;
+&quot;metadata1!R1C1:R26C45&quot; \a \f 4 \h <span style='mso-element:field-separator'></span><![endif]--></p>
+
+<p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--><!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12 &quot;https://d.docs.live.net/c17407db56f6b64f/MP4INVESTIGATOR-WEBSITE/ATOMS.xlsx&quot;
 &quot;Sheet5!R1C1:R27C45&quot; \a \f 4 \h <span style='mso-element:field-separator'></span><![endif]--></p>
 
 <p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--><!--[if supportFields]><span
-style='mso-element:field-begin'></span><span style='mso-spacerun:yes'> </span>LINK
-Excel.Sheet.12
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
 &quot;https://d.docs.live.net/c17407db56f6b64f/MP4INVESTIGATOR-WEBSITE/ATOMS.xlsx&quot;
-&quot;metadata1!R1C1:R26C45&quot; \a \f 4 \h <span
-style='mso-spacerun:yes'> </span>\* MERGEFORMAT <span style='mso-element:field-separator'></span><![endif]--></p>
+&quot;metadata1!R1C1:R26C45&quot; \a \f 4 \h<span style='mso-spacerun:yes'> 
+</span>\* MERGEFORMAT <span style='mso-element:field-separator'></span><![endif]--></p>
 
 <p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--><!--[if supportFields]><span
-style='mso-element:field-begin'></span><span style='mso-spacerun:yes'> </span>LINK
-Excel.Sheet.12
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>LINK Excel.Sheet.12
 &quot;https://d.docs.live.net/c17407db56f6b64f/MP4INVESTIGATOR-WEBSITE/ATOMS.xlsx&quot;
 &quot;metadata1!R1C1:R26C45&quot; \a \f 4 \h <span style='mso-element:field-separator'></span><![endif]--></p>
 
